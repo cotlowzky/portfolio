@@ -43,6 +43,9 @@ export default function Home({websites}) {
 
       <main>
         <TopNavbar />
+        <h1>Hi, my name is Filip Kotłowski</h1>
+        <h3>web developer</h3>
+        <h5>based in Opole, Poland</h5>
         {websites.map((website)=>(
           <WebsiteCard  title={website.name}
                         heroPhoto={website.heroPhoto}
