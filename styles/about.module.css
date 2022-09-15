@@ -1,0 +1,15 @@
+.aboutBgWrapper{
+    height: max-content;
+    width: 100vw;
+    background-color: var(--yellow);
+}
+.aboutWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:60vw;
+    margin:0 20%;
+}
+.aboutDescription{
+    line-height: 1.5em;
+}

@@ -5,6 +5,7 @@ const graphcms = new GraphQLClient("https://api-eu-central-1.hygraph.com/v2/cl81
 import WebsiteCard from '../components/WebsiteCard';
 import TopNavbar from '../components/TopNavbar';
 import HeroSection from '../sections/HeroSection';
+import AboutSection from '../sections/AboutSection';
 
 const QUERY = gql`
   {
@@ -45,6 +46,7 @@ export default function Home({websites}) {
       <main>
         <TopNavbar />
         <HeroSection />
+        <AboutSection />
         {websites.map((website)=>(
           <WebsiteCard  title={website.name}
                         heroPhoto={website.heroPhoto}
