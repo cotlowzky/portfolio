@@ -1,7 +1,10 @@
 .heroWrapper{
     height: 100vh;
+    position: relative;
 }
 .heroText{
-    color: #fff;
+    color: transparent;
     -webkit-text-stroke: 2px var(--black);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
 }
