@@ -1,0 +1,7 @@
+.heroWrapper{
+    height: 100vh;
+}
+.heroText{
+    color: #fff;
+    -webkit-text-stroke: 2px var(--black);
+}

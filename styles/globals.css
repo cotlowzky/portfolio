@@ -8,6 +8,10 @@ body {
 :root{
   --black:#000;
   --white:#fff;
+  --yellow:#ffd029;
+  --orange:#ff9029;
+  --grey:#23292e;
+  --green:#2dba4e;
 }
 /* fonts */
 
@@ -15,36 +19,81 @@ body {
   font-family: 'Inconsolata-Bold';
   src: url('../assets/fonts/Inconsolata-Bold.ttf');
 }
-.font-incon-bold{
+.incon-bold{
   font-family: 'Inconsolata-Bold';
 }
 @font-face {
   font-family: 'Inconsolata-Regular';
   src: url('../assets/fonts/Inconsolata-Regular.ttf');
 }
-.font-incon-regular{
+.incon-regular{
   font-family: 'Inconsolata-Regular';
 }
 @font-face {
   font-family: 'Montserrat-Bold';
   src: url('../assets/fonts/Montserrat-Bold.ttf');
 }
-.font-montserrat-bold{
-  font-family: 'Inconsolata-Regular';
+.montserrat-bold{
+  font-family: 'Montserrat-Bold';
 }
 @font-face {
   font-family: 'Montserrat-Regular';
   src: url('../assets/fonts/Montserrat-Regular.ttf');
 }
-.font-montserrat-regular{
-  font-family: 'Inconsolata-Regular';
+.montserrat-regular{
+  font-family: 'Montserrat-Regular';
 }
 @font-face {
   font-family: 'SourceSansPro-SemiBold';
   src: url('../assets/fonts/SourceSansPro-SemiBold.ttf');
 }
-.font-ssp-semibold{
+.ssp-semibold{
   font-family: 'SourceSansPro-SemiBold';
+}
+/* text */
+  /*color */
+  .text-black{
+    color:var(--black)
+  }
+  .text-white{
+    color:var(--white)
+  }
+  .text-yellow{
+    color:var(--yellow)
+  }
+  .text-orange{
+    color:var(--orange)
+  }
+  /* size */
+  .text-18{
+    font-size: 18px;
+  }
+  .text-20{
+    font-size: 20px;
+  }
+  .text-32{
+    font-size: 32px;
+  }
+  .text-112{
+    font-size: 112px;
+  }
+  /* decorations */
+  .text-upper{
+    text-transform: uppercase;
+  }
+  .text-center{
+    text-align: center;
+  }
+/* flex */
+.flex{
+  display: flex;
+}
+.flex-center{
+  align-items: center;
+  justify-content: center;
+}
+.flex-column{
+  flex-direction: column;
 }
 a {
   color: inherit;
@@ -60,5 +109,4 @@ main{
   align-items: center;
   width:60vw;
   margin:0 20%;
-  background-color: brown;
 }
