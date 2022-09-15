@@ -4,7 +4,43 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+/* fonts */
 
+@font-face {
+  font-family: 'Inconsolata-Bold';
+  src: url('../assets/fonts/Inconsolata-Bold.ttf');
+}
+.font-incon-bold{
+  font-family: 'Inconsolata-Bold';
+}
+@font-face {
+  font-family: 'Inconsolata-Regular';
+  src: url('../assets/fonts/Inconsolata-Regular.ttf');
+}
+.font-incon-regular{
+  font-family: 'Inconsolata-Regular';
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('../assets/fonts/Montserrat-Bold.ttf');
+}
+.font-montserrat-bold{
+  font-family: 'Inconsolata-Regular';
+}
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../assets/fonts/Montserrat-Regular.ttf');
+}
+.font-montserrat-regular{
+  font-family: 'Inconsolata-Regular';
+}
+@font-face {
+  font-family: 'SourceSansPro-SemiBold';
+  src: url('../assets/fonts/SourceSansPro-SemiBold.ttf');
+}
+.font-ssp-semibold{
+  font-family: 'SourceSansPro-SemiBold';
+}
 a {
   color: inherit;
   text-decoration: none;
