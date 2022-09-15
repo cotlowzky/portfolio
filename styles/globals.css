@@ -4,6 +4,11 @@ body {
   margin: 0;
   box-sizing: border-box;
 }
+/* colors */
+:root{
+  --black:#000;
+  --white:#fff;
+}
 /* fonts */
 
 @font-face {
