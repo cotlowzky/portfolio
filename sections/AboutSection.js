@@ -1,4 +1,5 @@
 import React from 'react'
+import SkillsCard from '../components/SkillsCard'
 import styles from '../styles/about.module.css'
 
 function AboutSection() {
@@ -10,6 +11,23 @@ function AboutSection() {
             <p className='ssp-semibold text-32 text-black flex-left'>I make websites and do it well.</p>
             <span className={`montserrat-regular text-20 ${styles.aboutDescription}`}>With a passion for making websites. I enjoy making project with a bit of aesthtetic elements. Every day I am smiling person who is always optimistic about the new task. It is the start of my jouruney in web development, because I am 19 year old. I am also quickly learning new things. I was starting with basics HTML CSS JS etc. Now I am writing code in React but i also have a background in React Native and UI designing in Figma. So I make design in Figma and then I am coding that.</span>
             <p className='incon-bold text-20 text-white text-upper'>What i like</p>
+            <p className='ssp-semibold text-32 text-black flex-left'>3 things to know about me</p>
+            <span className={`montserrat-regular text-20 ${styles.aboutDescription}`}>1 - I like coding. That’s my passion and that’s why i want to work as web developer. I think the best way to work is working in job which is your passion</span>
+            <span className={`montserrat-regular text-20 ${styles.aboutDescription}`}>2 - I like to watch movies, especially comedies. Commonly I also like to make laugh my friends. I also like to watch football, I am very huge fan from being a child.</span>
+            <span className={`montserrat-regular text-20 flex-left ${styles.aboutDescription}`}>3 - That’s my favourite number</span>
+            <p className='incon-bold text-20 text-white text-upper'>My skills</p>
+            <div className={`flex flex-wrap flex-center ${styles.skillsWrapper}`}>
+              <SkillsCard tech="html" level="intermediate"/>
+              <SkillsCard tech="css" level="intermediate"/>
+              <SkillsCard tech="js" level="intermediate"/>
+              <SkillsCard tech="react" level="begginer"/>
+              <SkillsCard tech="react native" level="begginer"/>
+              <SkillsCard tech="php" level="begginer"/>
+              <SkillsCard tech="sql" level="begginer"/>
+              <SkillsCard tech="python" level="begginer"/>
+              <SkillsCard tech="figma" level="begginer"/>
+              <SkillsCard tech="bootstrap" level="begginer"/>
+            </div>
         </div>
     </div>
   )

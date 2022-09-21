@@ -13,3 +13,39 @@
 .aboutDescription{
     line-height: 1.5em;
 }
+.skillsWrapper{
+    width: 90%;
+    border:2px solid var(--white);
+    border-radius: 20px;
+}
+.cardWrapper{
+    width: 20%;
+    margin: 5%;
+    text-align: center;
+    position: relative;
+    background-color: rgba(255, 255, 255,0.75);
+    padding: 0 2%;
+}
+.tech{
+    position: relative;
+    text-align: left;
+    z-index: 2;
+}
+.level{
+    position: absolute;
+    top:11%;
+    left:0 auto;
+    z-index: 1;
+}
+.cardWrapper:hover{
+    cursor: crosshair;
+    background-color: var(--orange);
+    transition: ease-in-out .3s all;
+}
+.cardWrapper:hover .tech{
+    opacity: 0;
+}
+.cardWrapper:hover .level{
+    z-index: 2;
+    color: white;
+}
