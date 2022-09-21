@@ -1,12 +1,13 @@
 
-
-export default function WebsiteCard({title,heroPhoto,slug}){
+import Image from "next/image";
+export default function WebsiteCard({title,heroPhoto,slug,description}){
     return(
-        <div>
+        <div className="flex">
                 <div>
                     <img src={heroPhoto} alt='website photo'/>
                 </div>
-                {title}
+                <p className="montserrat-regular">{title}</p>
+                <p className="montserrat-regular">{description}</p>
         </div>
     )
 }

@@ -6,6 +6,7 @@ import WebsiteCard from '../components/WebsiteCard';
 import TopNavbar from '../components/TopNavbar';
 import HeroSection from '../sections/HeroSection';
 import AboutSection from '../sections/AboutSection';
+import WorkSection from '../sections/WorkSection';
 
 const QUERY = gql`
   {
@@ -47,12 +48,14 @@ export default function Home({websites}) {
         <TopNavbar />
         <HeroSection />
         <AboutSection />
+        <WorkSection content=
         {websites.map((website)=>(
           <WebsiteCard  title={website.name}
                         heroPhoto={website.heroPhoto}
                         slug={website.slug}
+                        description={website.description}
           />
-        ))}
+        ))} />
       </main>
 
     </div>
