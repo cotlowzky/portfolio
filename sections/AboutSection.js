@@ -28,6 +28,21 @@ function AboutSection() {
               <SkillsCard tech="figma" level="begginer"/>
               <SkillsCard tech="bootstrap" level="begginer"/>
             </div>
+            <p className='incon-bold text-20 text-white text-upper'>education & experience</p>
+            <p className='ssp-semibold text-32 text-black flex-left'>Where i was studied</p>
+            <span className={`montserrat-regular text-20 flex-left m-1 ${styles.aboutDescription}`}>
+            <span className='montserrat-bold'>from 2018 to 2022 - </span> Technikum nr 5 im. Tadeusza Kościuszki w Opolu - technik informatyk
+            </span>
+            <p className='ssp-semibold text-32 text-black flex-left'>My work places</p>
+            <span className={`montserrat-regular text-20 flex-left m-1 ${styles.aboutDescription}`}>
+              <span className='montserrat-bold'>from 01.03.2020 to 31.03.2020 -</span>  Hardware Storm Zdzieszowice - proffesional pracitce in computer service
+            </span>
+            <span className={`montserrat-regular text-20 flex-left m-1 ${styles.aboutDescription}`}>
+              <span className='montserrat-bold'>from 01.10.2020 to 31.10.2020 -</span> IT DESK Opole - proffesional pracitce in computer service
+            </span>
+            <span className={`montserrat-regular text-20 flex-left m-1 ${styles.aboutDescription}`}>
+            <span className='montserrat-bold'>from 01.02.2022 to now - </span>Odskocznia & Hoplandia in Opole - trainer and animator for kids
+            </span>
         </div>
     </div>
   )
