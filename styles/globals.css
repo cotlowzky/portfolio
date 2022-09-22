@@ -68,6 +68,12 @@ body{
     color:var(--orange)
   }
   /* size */
+  .text-11{
+    font-size: 11px;
+  }
+  .text-12{
+    font-size: 12px;
+  }
   .text-18{
     font-size: 18px;
   }
@@ -90,6 +96,9 @@ body{
   .text-center{
     text-align: center;
   }
+  .text-small-caps{
+    font-variant: small-caps;
+  }
   /* types */
   .text-title{
     color: transparent;
@@ -102,6 +111,10 @@ body{
 /* margins & paddings */
  .m-1{
   margin:1%
+ }
+ /* width & height */
+ .w-20{
+  width: 20vw;
  }
 /* flex */
 .flex{
@@ -119,6 +132,9 @@ body{
 }
 .flex-left{
   align-self: start;
+}
+.flex-space-around{
+  justify-content: space-around;
 }
 a {
   color: inherit;

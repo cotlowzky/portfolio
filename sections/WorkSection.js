@@ -1,9 +1,9 @@
 import React from 'react'
-
 function WorkSection(props) {
   return (
-    <div>{props.content}
-    <p>sad</p></div>
+    <div className="flex">
+      {props.content}
+    </div>
   )
 }
 
