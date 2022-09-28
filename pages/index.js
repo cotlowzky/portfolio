@@ -7,6 +7,7 @@ import TopNavbar from '../components/TopNavbar';
 import HeroSection from '../sections/HeroSection';
 import AboutSection from '../sections/AboutSection';
 import WorkSection from '../sections/WorkSection';
+import ContactSection from '../sections/ContactSection';
 
 const QUERY = gql`
   {
@@ -56,6 +57,7 @@ export default function Home({websites}) {
                         description={website.description}
           />
         ))} />
+        <ContactSection />
       </main>
 
     </div>
