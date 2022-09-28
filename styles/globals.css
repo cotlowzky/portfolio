@@ -108,6 +108,12 @@ body{
     margin-bottom: 0;
     margin-left: -10%;
   }
+  .text-title-work{
+    -webkit-text-stroke: 3px var(--black);
+    background: -webkit-linear-gradient(270deg, #FFFFFF 50.64%, #FFD029 98.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 /* margins & paddings */
  .m-1{
   margin:1%
