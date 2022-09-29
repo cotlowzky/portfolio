@@ -125,6 +125,9 @@ body{
  .p-2{
   padding: 2%;
  }
+ .p-4{
+  padding: 4%;
+ }
  /* width & height */
  .h-20{
   height: 20vw;

@@ -10,11 +10,11 @@ function ContactSection() {
             <div className='w-50p h-20'>
                 <Image src={contactImage} />
             </div>
-            <div className='w-50p h-20'>
-                <div className={`montserrat-bold text-small-caps p-2 m-1 ${styles.contactButton}`}>github</div>
-                <div className={`montserrat-bold text-small-caps p-2 m-1 ${styles.contactButton}`}>linkedin</div>
-                <div className={`montserrat-bold text-small-caps p-2 m-1 ${styles.contactButton}`}>mail</div>
-                <div className={`montserrat-bold text-small-caps p-2 m-1 ${styles.contactButton}`}>phone</div>
+            <div className='w-50p h-20 flex-space-around flex-column flex'>
+                <div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton} ${styles.github} `}><p>github</p></div>
+                <div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton} ${styles.linkedin}`}><p>linkedin</p></div>
+                <div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton} ${styles.mail}`}><p>mail</p></div>
+                <div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton} ${styles.phone}`}><p>phone</p></div>
             </div>
         </div>
     </div>
