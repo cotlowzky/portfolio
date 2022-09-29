@@ -2,7 +2,7 @@ import styles from '../styles/work.module.css'
 
 export default function WebsiteCard({title,heroPhoto,slug,description}){
     return(
-        <div className={`w-20 m-1 ${styles.workWrapper}`}>
+        <div className={`w-20 m-1 p-2 ${styles.workWrapper}`}>
                 <div>
                     <img src={heroPhoto} alt='website photo'/>
                 </div>

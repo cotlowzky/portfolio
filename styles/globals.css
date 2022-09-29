@@ -119,6 +119,13 @@ body{
 
   }
 /* margins & paddings */
+
+  .m-5btm{
+    margin-bottom:5%;
+  }
+  .p-5btm{
+    padding-bottom:5%;
+  }
  .m-1{
   margin:1%
  }
