@@ -202,9 +202,24 @@ main{
 .wave{
   position: absolute;
   bottom: 0;
-  left:-40.6%;
   width: 100vw;
   background: var(--yellow);
   height: 150px;
   border-radius: 100% 25% 0 0;
+}
+
+@media only screen and (max-width: 1366px) {
+  main{
+    margin:0;
+    width:100vw;
+  }
+  .text-title{
+    margin-left: -5% !important;
+  }
+  #contact{
+    width:60% !important;
+  }
+  .heroImage{
+    height: 600px;
+  }
 }
