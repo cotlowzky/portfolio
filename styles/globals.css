@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 *::selection{
   background-color: var(--orange);
 }
 body{
   margin: 0;
+  overflow-x: hidden;
 }
 /* colors */
 :root{
@@ -128,6 +130,9 @@ body{
   }
   .m-0top{
    margin-top:0%
+  }
+  .p-5top{
+   padding-top:5%
   }
  .m-1{
   margin:1%
