@@ -4,7 +4,7 @@ import styles from '../styles/about.module.css'
 
 function AboutSection() {
   return (
-    <div className={`p-5btm ${styles.aboutBgWrapper}`}>
+    <div className={`p-5btm ${styles.aboutBgWrapper}`} id="about">
         <div className={`${styles.aboutWrapper}`}>
             <h2 className='montserrat-bold text-white text-96 text-title'>About me</h2>
             <p className='incon-bold text-20 text-white text-upper'>let's get to know each other</p>

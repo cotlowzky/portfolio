@@ -126,6 +126,9 @@ body{
   .p-5btm{
     padding-bottom:5%;
   }
+  .m-0top{
+   margin-top:0%
+  }
  .m-1{
   margin:1%
  }
@@ -170,6 +173,9 @@ body{
 }
 .flex-space-around{
   justify-content: space-around;
+}
+.flex-space-btwn{
+  justify-content: space-between;
 }
 a {
   color: inherit;
