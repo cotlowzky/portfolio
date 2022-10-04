@@ -71,3 +71,8 @@
         width: 75%;
     }
 }
+
+@media only screen and (max-width: 428px) {
+    .aboutBgWrapper{
+        width: 220vw;
+    }}

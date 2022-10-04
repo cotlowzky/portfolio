@@ -245,10 +245,20 @@ main{
   .location{
     position: absolute;
     bottom:12%;
+    left:2%;
     text-shadow: 2px 2px var(--white);
     font-size: 1.8em;
   }
   .text-title-work{
     margin-left: -30% !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  main{
+    width:210vw
+  }
+  .wave{
+    width: 220vw;
   }
 }
