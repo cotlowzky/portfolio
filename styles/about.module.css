@@ -56,3 +56,18 @@
     width: 70vw;
 }
 }
+
+@media only screen and (max-width: 428px) {
+    .aboutBgWrapper{
+        width: 200vw;
+    }
+    .aboutWrapper{
+        width:70%;
+    }
+    .skillsWrapper{
+        flex-direction: column;
+    }
+    .cardWrapper{
+        width: 75%;
+    }
+}

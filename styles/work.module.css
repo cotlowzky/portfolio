@@ -17,3 +17,12 @@
         width: 25vw;
     }
 }
+
+@media only screen and (max-width: 428px) {
+    .workWrapper{
+        width: 75vw;
+    }
+    .websites{
+        flex-direction: column ;
+    }
+}
