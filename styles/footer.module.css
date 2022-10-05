@@ -8,7 +8,12 @@
     background-repeat: space;
     background-size: contain;
     background-position: center;
-
+}
+.footerSubTitle{
+    margin-bottom: 5%;
+}
+.icon:hover{
+    cursor: pointer;
 }
 .links{
     margin:8% 0;
