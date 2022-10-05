@@ -194,7 +194,7 @@ main{
   margin:0 20%;
 }
 .heroImage{
-    height: 650px;
+    height: 700px;
     position: absolute;
     bottom:0;
     z-index: -1;
@@ -228,9 +228,6 @@ main{
   main{
     width:200vw
   }
-  .wave{
-    width: 200vw;
-  }
   .heroImage{
     height: 700px;
   }
@@ -251,6 +248,23 @@ main{
   }
   .text-title-work{
     margin-left: -30% !important;
+  }
+  .contact-section{
+    flex-direction: column;
+    width: 150vw;
+    height: 50vh;
+  }
+  .contact-photo{
+    height: min-content;
+    width: 100%;
+  }
+  .contact-buttons{
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .wave{
+    width: 220vw;
   }
 }
 
