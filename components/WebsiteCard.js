@@ -3,9 +3,6 @@ import styles from '../styles/work.module.css'
 export default function WebsiteCard({title,heroPhoto,slug,description}){
     return(
         <div className={`w-20 m-1 p-2 ${styles.workWrapper}`}>
-                <div>
-                    <img src={heroPhoto} alt='website photo'/>
-                </div>
                 <div className="flex flex-column">
                     <p className="montserrat-bold text-small-caps text-20">{title}</p>
                     <p className="montserrat-regular text-12 text-small-caps">{description}</p>

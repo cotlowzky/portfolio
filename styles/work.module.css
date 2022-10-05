@@ -2,6 +2,9 @@
     background-color: rgba(255,255,255,0.5);
     border: 2px solid var(--orange);
 }
+.websites{
+    height: max-content;
+}
 .detailsButton{
     background-color: #24292E;
     width: 45%;

@@ -5,7 +5,7 @@ import heroImage from '../assets/img/herophoto.png'
 import Image from 'next/image'
 function HeroSection() {
   return (
-    <div className={`flex flex-column flex-center ${styles.heroWrapper}`}>
+    <div id="home" className={`flex flex-column flex-center ${styles.heroWrapper}`}>
         <h1 className='montserrat-bold text-32 text-center name'>Hi, my name is <span className='text-yellow'>Filip Kotłowski</span></h1>
         <h3 className={`montserrat-bold text-112 text-upper work-text ${styles.heroText}`}>web developer</h3>
         <h5 className='incon-bold text-20 flex-left location'>based in Opole, Poland</h5>

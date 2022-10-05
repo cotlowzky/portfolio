@@ -134,11 +134,17 @@ body{
   .p-5top{
    padding-top:5%
   }
+  .m-0{
+   margin:0%
+  }
  .m-1{
   margin:1%
  }
  .m-3{
   margin:3%
+ }
+ .m-5lftrght{
+  margin:0 5%
  }
  .p-2{
   padding: 2%;
@@ -147,11 +153,17 @@ body{
   padding: 4%;
  }
  /* width & height */
+ .h-10{
+  height: 10vw;
+ }
  .h-20{
   height: 20vw;
  }
  .w-20{
   width: 20vw;
+ }
+ .w-100{
+  width: 100vw;
  }
  .w-100p{
   width: 100%;
@@ -198,6 +210,7 @@ main{
 }
 .heroImage{
     height: 700px;
+    width: 550px;
     position: absolute;
     bottom:0;
     z-index: -1;

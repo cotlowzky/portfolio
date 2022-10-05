@@ -1,0 +1,28 @@
+.footerWrapper{
+    background-color: var(--yellow);
+    padding: 5% 20%;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    background-repeat: space;
+    background-size: contain;
+    background-position: center;
+
+}
+.links{
+    margin:8% 0;
+}
+.links:hover{
+    cursor: pointer;
+}
+.github{
+    background-image: url('../assets/img/github.png');
+}
+.linkedin{
+    background-image: url('../assets/img/linkedin.png');
+
+}
+.mail{
+    background-image: url('../assets/img/mail.png');
+}

@@ -8,6 +8,7 @@ import HeroSection from '../sections/HeroSection';
 import AboutSection from '../sections/AboutSection';
 import WorkSection from '../sections/WorkSection';
 import ContactSection from '../sections/ContactSection';
+import FooterSection from '../sections/FooterSection';
 
 const QUERY = gql`
   {
@@ -58,6 +59,7 @@ export default function Home({websites}) {
           />
         ))} />
         <ContactSection />
+        <FooterSection />
       </main>
 
     </div>
