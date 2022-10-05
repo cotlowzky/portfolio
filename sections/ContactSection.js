@@ -2,6 +2,9 @@ import React from 'react'
 import styles from '../styles/contact.module.css'
 import contactImage from '../assets/img/contactphoto.jpg'
 import Image from 'next/image'
+import {goToGithub} from '../constant/functions'
+import Link from 'next/link';
+
 function ContactSection() {
   return (
     <div className='flex w-100p flex-column m-5btm p-5top' id="contact"> 
@@ -11,10 +14,10 @@ function ContactSection() {
                 <Image src={contactImage}/>
             </div>
             <div className='w-50p flex-space-around flex-column flex contact-buttons m-3'>
-                <div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton} `}><p>GitHub</p></div>
-                <div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton} `}><p>LinkedIn</p></div>
-                <div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton}`}><p>Mail</p></div>
-                <div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton}`}><p>Phone</p></div>
+                <Link href="https://github.com/cotlowzky"><div className={`montserrat-bold github text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton} `}><p>GitHub</p></div></Link>
+                <Link href="https://www.linkedin.com/in/filipkotlowski"><div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton} `}><p>LinkedIn</p></div></Link>
+                <Link href="mailto:kotlowskifilip@gmail.com"><div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton}`}><p>Mail</p></div></Link>
+                <Link href="tel:532075390"><div className={`montserrat-bold  text-20 text-white text-small-caps p-4 m-1 ${styles.contactButton}`}><p>Phone</p></div></Link>
             </div>
         </div>
     </div>
