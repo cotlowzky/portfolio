@@ -137,6 +137,9 @@ body{
  .m-1{
   margin:1%
  }
+ .m-3{
+  margin:3%
+ }
  .p-2{
   padding: 2%;
  }
@@ -207,7 +210,6 @@ main{
   height: 150px;
   border-radius: 100% 25% 0 0;
 }
-
 @media only screen and (max-width: 1366px) {
   main{
     margin:0;

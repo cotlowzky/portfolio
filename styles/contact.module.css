@@ -1,12 +1,14 @@
 .contactButton{
     transition: .2s ease-in-out all;
     margin-left: 0% !important;
+    border: 2px solid var(--orange);
 }
 .contactButton:hover{
     cursor: pointer;
-    background-color: var(--black);
+    background-color: var(--orange);
 }
 .contactButton p{
+    color: black;
     transition: .1s ease-in-out all;
     margin:0;
 }
@@ -14,16 +16,4 @@
     width:50%;
     text-align:center;
     margin-left:25%;
-}
-.github{
-    background-color: #862dba;
-}
-.linkedin{
-    background-color: #0077b5;
-}
-.mail{
-    background-color: #ea4335
-}
-.phone{
-    background-color: #07c480;
 }
