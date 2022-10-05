@@ -25,6 +25,6 @@
 
 @media only screen and (max-width: 360px) {
     .heroWrapper{
-        width: 210vw;
+        width: 210vw !important;
     }
 }

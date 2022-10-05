@@ -240,8 +240,12 @@ main{
 }
 
 @media only screen and (max-width: 428px) {
+  .name{
+    position: absolute;
+    top:25%;
+  }
   main{
-    width:200vw
+    width:210vw
   }
   .heroImage{
     height: 700px;
@@ -251,8 +255,14 @@ main{
     font-size: 4rem;
     text-align: center;
   }
+  .text-20{
+    font-size: 1.5em;
+  }
   .text-18{
     font-size: 1.5em;
+  }
+  .text-12{
+    font-size: 1.2em;
   }
   .location{
     position: absolute;
@@ -276,8 +286,6 @@ main{
   .contact-buttons{
     width: 100%;
   }
-}
-@media only screen and (max-width: 400px) {
   .wave{
     width: 220vw;
   }
@@ -285,7 +293,7 @@ main{
 
 @media only screen and (max-width: 360px) {
   main{
-    width:210vw
+    width:210vw !important;
   }
   .wave{
     width: 220vw;

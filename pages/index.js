@@ -59,7 +59,6 @@ export default function Home({websites}) {
           />
         ))} />
         <ContactSection />
-        <FooterSection />
       </main>
 
     </div>

@@ -16,7 +16,7 @@ function AboutSection() {
             <span className={`montserrat-regular text-20 ${styles.aboutDescription}`}>2 - I like to watch movies, especially comedies. Commonly I also like to make laugh my friends. I also like to watch football, I am very huge fan from being a child.</span>
             <span className={`montserrat-regular text-20 flex-left ${styles.aboutDescription}`}>3 - That’s my favourite number</span>
             <p className='incon-bold text-20 text-white text-upper'>My skills</p>
-            <div className={`flex flex-wrap flex-center ${styles.skillsWrapper}`}>
+            <div className={`m-5btm flex flex-wrap flex-center ${styles.skillsWrapper}`}>
               <SkillsCard tech="html" level="intermediate"/>
               <SkillsCard tech="css" level="intermediate"/>
               <SkillsCard tech="js" level="intermediate"/>
