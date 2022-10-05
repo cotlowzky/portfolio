@@ -1,7 +1,7 @@
 import React from 'react'
 import WaveComponent from '../components/WaveComponent'
 import styles from '../styles/hero.module.css'
-import heroImage from '../assets/img/person-stock.png'
+import heroImage from '../assets/img/herophoto.png'
 import Image from 'next/image'
 function HeroSection() {
   return (

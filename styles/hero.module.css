@@ -3,10 +3,13 @@
     position: relative;
 }
 .heroText{
-    color: transparent;
     -webkit-text-stroke: 2px var(--black);
-    backdrop-filter: blur(7px);
-    -webkit-backdrop-filter: blur(7px);
+    color: var(--black);
+
+}
+.heroText:hover{
+    color: transparent;
+    transition: .2s ease-in all;
 }
 
 @media only screen and (max-width: 1366px) {

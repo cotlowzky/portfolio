@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/contact.module.css'
-import contactImage from '../assets/img/laptop.jpg'
+import contactImage from '../assets/img/contactphoto.jpg'
 import Image from 'next/image'
 function ContactSection() {
   return (
