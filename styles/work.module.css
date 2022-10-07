@@ -15,6 +15,9 @@
     width: 45%;
     height: 10%;
 }
+.githubButton:hover, .detailsButton:hover{
+    cursor: pointer;
+}
 @media only screen and (max-width: 1366px) {
     .workWrapper{
         width: 25vw;

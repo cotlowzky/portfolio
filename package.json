@@ -6,17 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "next build && next export && node ./scripts/deploy.js"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "babel-preset-es2015": "^6.24.1",
     "graphql": "^16.6.0",
     "graphql-request": "^5.0.0",
-    "next": "12.3.0",
+    "next": "^12.3.0",
+    "next-remove-imports": "^1.0.7",
+    "next-transpile-modules": "^9.0.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "webpack": "^5.74.0",
+    "zeit": "^1.3.0"
   },
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0"
+    "eslint-config-next": "12.3.0",
+    "ftp-deploy": "^2.4.3",
+    "terser-brunch": "^4.1.0"
   }
 }

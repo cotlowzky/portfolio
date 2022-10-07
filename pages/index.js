@@ -1,14 +1,12 @@
 import Head from 'next/head'
 import {GraphQLClient,gql} from 'graphql-request'
 const graphcms = new GraphQLClient("https://api-eu-central-1.hygraph.com/v2/cl81tjdr31urc01t1dohh2blb/master");
-
 import WebsiteCard from '../components/WebsiteCard';
 import TopNavbar from '../components/TopNavbar';
 import HeroSection from '../sections/HeroSection';
 import AboutSection from '../sections/AboutSection';
 import WorkSection from '../sections/WorkSection';
 import ContactSection from '../sections/ContactSection';
-import FooterSection from '../sections/FooterSection';
 
 const QUERY = gql`
   {
@@ -21,7 +19,8 @@ const QUERY = gql`
       content{
         html
       },
-      description
+      description,
+      github
     }
   }
 `;
@@ -56,6 +55,8 @@ export default function Home({websites}) {
                         heroPhoto={website.heroPhoto}
                         slug={website.slug}
                         description={website.description}
+                        github={website.github}
+                        key={website.name}
           />
         ))} />
         <ContactSection />
